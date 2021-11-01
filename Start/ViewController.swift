@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var containerview: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        containerview.translatesAutoresizingMaskIntoConstraints = false
+//         preferredContentSizeDidChange(forChildContentContainer: MyTableViewController)
+
     }
 
+    
 
 }
 

@@ -13,6 +13,11 @@
 		911A7894272FA9B4002D586C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911A7892272FA9B4002D586C /* Main.storyboard */; };
 		911A7896272FA9B7002D586C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911A7895272FA9B7002D586C /* Assets.xcassets */; };
 		911A7899272FA9B7002D586C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911A7897272FA9B7002D586C /* LaunchScreen.storyboard */; };
+		911A78A1272FAA1C002D586C /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A78A0272FAA1C002D586C /* MyTableViewController.swift */; };
+		911A78A3272FED35002D586C /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A78A2272FED35002D586C /* AnotherViewController.swift */; };
+		911A78A5272FED71002D586C /* AnotherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A78A4272FED71002D586C /* AnotherTableViewCell.swift */; };
+		911A78A7273033A2002D586C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A78A6273033A2002D586C /* ThirdViewController.swift */; };
+		911A78A9273033C6002D586C /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A78A8273033C6002D586C /* ThirdTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		911A7895272FA9B7002D586C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911A7898272FA9B7002D586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		911A789A272FA9B7002D586C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911A78A0272FAA1C002D586C /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		911A78A2272FED35002D586C /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		911A78A4272FED71002D586C /* AnotherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherTableViewCell.swift; sourceTree = "<group>"; };
+		911A78A6273033A2002D586C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		911A78A8273033C6002D586C /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				911A788C272FA9B4002D586C /* AppDelegate.swift */,
 				911A788E272FA9B4002D586C /* SceneDelegate.swift */,
 				911A7890272FA9B4002D586C /* ViewController.swift */,
+				911A78A0272FAA1C002D586C /* MyTableViewController.swift */,
 				911A7892272FA9B4002D586C /* Main.storyboard */,
+				911A78A2272FED35002D586C /* AnotherViewController.swift */,
+				911A78A4272FED71002D586C /* AnotherTableViewCell.swift */,
+				911A78A6273033A2002D586C /* ThirdViewController.swift */,
+				911A78A8273033C6002D586C /* ThirdTableViewCell.swift */,
 				911A7895272FA9B7002D586C /* Assets.xcassets */,
 				911A7897272FA9B7002D586C /* LaunchScreen.storyboard */,
 				911A789A272FA9B7002D586C /* Info.plist */,
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				911A7891272FA9B4002D586C /* ViewController.swift in Sources */,
+				911A78A9273033C6002D586C /* ThirdTableViewCell.swift in Sources */,
+				911A78A5272FED71002D586C /* AnotherTableViewCell.swift in Sources */,
+				911A78A3272FED35002D586C /* AnotherViewController.swift in Sources */,
+				911A78A7273033A2002D586C /* ThirdViewController.swift in Sources */,
 				911A788D272FA9B4002D586C /* AppDelegate.swift in Sources */,
 				911A788F272FA9B4002D586C /* SceneDelegate.swift in Sources */,
+				911A78A1272FAA1C002D586C /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
